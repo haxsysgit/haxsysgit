@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @haxsysgit
 - 👀 I’m interested in programming
-- 🌱 I’m currently learning machine learning
+- 🌱 I’m currently looking for a job
 - 💞️ I’m looking to collaborate on any python project
-- 📫 How to reach me +234 901 901 3557
+- 📫 How to reach me +234 7013 7979 663
 - ⚡ Fun fact: Why do programmers prefer dark mode? Because light attracts bugs!
 
 <!---
