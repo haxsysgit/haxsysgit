@@ -17,25 +17,24 @@
 - BSc Information Technology, Middlesex University (Expected May 2026).
 
 ## Current Focus
-- Advancing **HaxAML** as a backend-oriented agentic AI and automation research project.
-- Designing hybrid architectures that combine LLM flexibility with deterministic backend guardrails.
-- Building AI-assisted systems that remain observable, testable, and stable in production.
+I am currently focused on **HaxAML**, my parent project for agentic AI coordination and backend automation architecture.
 
-## Project Spotlight: HaxAML
-**HaxAML** is my current core project and research direction.
+HaxAML is centered on building a practical "project brain" system that helps AI agents and developers stay aligned across sessions without context bloat. It emphasizes structured execution, schema-backed state, and disciplined decision tracking for software delivery.
 
-It focuses on:
-- Agentic workflows for backend automation.
-- Structured tool use with guardrails to keep outputs reliable.
-- Backend-first design for evaluation, observability, and long-term maintainability.
+Current work areas inside HaxAML:
+- Defining and evolving a machine-readable project brain (`brain.yaml`) and live execution state (`state.yaml`).
+- Building a controlled execution loop (`preflight -> run -> validate -> done`) to improve reliability across long-running work.
+- Implementing safe state evolution with locking, atomic writes, and compaction for multi-run and multi-agent workflows.
+- Measuring token efficiency and context budgets across formats and project scales.
+- Driving **superapi** as a child project within the HaxAML ecosystem.
 
 ## Featured Projects
 | Project | What it does | Stack |
 |---|---|---|
-| **HaxAML** | Active project on agentic AI + backend automation patterns with production-oriented reliability constraints. | Python, FastAPI, LLM tooling |
+| **HaxAML** | Parent project for agentic AI project coordination: structured brain/state files, execution loops, validation, and token-efficiency workflows for backend-focused delivery. | Python, FastAPI, YAML schemas |
+| [superapi](https://github.com/haxsysgit/superapi) | Child project under HaxAML that applies structured architectural governance to FastAPI projects beyond trivial size. | Python, FastAPI, CLI tooling |
 | [autopahe](https://github.com/haxsysgit/autopahe) | Cross-platform CLI for searching, downloading, streaming, and organizing anime from AnimePahe. | Python, Playwright, Docker |
 | [Selitys](https://github.com/haxsysgit/Selitys) | Explains unfamiliar backend codebases (CLI + web app) with architecture and request-flow breakdowns. | Python, FastAPI, JavaScript |
-| [AI Basket Builder Demo](https://github.com/haxsysgit/Aibasket_demo) | Conversational shopping assistant with LLM recommendations and deterministic validation fallback. | FastAPI, Vue 3, OpenAI |
 | [My_Campus](https://github.com/haxsysgit/My_Campus) | Hackathon app for campus navigation, attendance check-in, occupancy, and safety workflows. | React, TypeScript, FastAPI |
 | [Shift-Automation](https://github.com/haxsysgit/Shift-Automation) | Real-time email parsing and auto-reply engine for shift scheduling workflows. | Python, IMAP/SMTP, SQLite |
 
@@ -46,7 +45,6 @@ It focuses on:
 - [html2django](https://github.com/haxsysgit/html2django) - utility to convert static HTML tags to Django static templates.
 - [vue-coursework-frontend](https://github.com/haxsysgit/vue-coursework-frontend) + [express-coursework-backend](https://github.com/haxsysgit/express-coursework-backend) - full-stack coursework build.
 - [aneskibackend](https://github.com/haxsysgit/aneskibackend) - backend service experiments.
-- [superapi](https://github.com/haxsysgit/superapi) + [superapi_arch](https://github.com/haxsysgit/superapi_arch) - architecture and governance direction for scalable backend systems.
 
 ## Tech Stack
 <p>
