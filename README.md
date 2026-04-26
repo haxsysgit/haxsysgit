@@ -1,26 +1,10 @@
-<h1 align="center">Arinze Elenasulu</h1>
-<p align="center"><b>Python Backend Engineer (Automation & AI Systems)</b></p>
-<p align="center">
-  I research agentic AI and automation with a backend-first focus, building reliable systems designed for real operations.
-</p>
+# Backend AI Systems & Automation
 
-<p align="center">
-  <a href="mailto:elenasuluarinze@gmail.com"><img src="https://img.shields.io/badge/Email-elenasuluarinze%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/haxsysgit"><img src="https://img.shields.io/badge/GitHub-haxsysgit-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Location-London%2C%20UK-1F2937?style=for-the-badge"/>
-</p>
+I’m currently focused on **HaxAML**: a parent project for agentic AI coordination and backend automation architecture.
 
-## About Me
-- Backend engineer focused on APIs, workflow automation, and production-safe AI integration.
-- I prioritize systems that are clear, resilient, and maintainable under real-world load.
-- I enjoy translating operational bottlenecks into reliable software workflows.
-- BSc Information Technology, Middlesex University (Expected May 2026).
+HaxAML is built around a practical "project brain" approach that helps AI agents and developers stay aligned across sessions without context bloat. The goal is reliable, structured execution for real software delivery.
 
-## Current Focus
-I am currently focused on **HaxAML**, my parent project for agentic AI coordination and backend automation architecture.
-
-HaxAML is centered on building a practical "project brain" system that helps AI agents and developers stay aligned across sessions without context bloat. It emphasizes structured execution, schema-backed state, and disciplined decision tracking for software delivery.
-
+## Current Focus: HaxAML
 Current work areas inside HaxAML:
 - Defining and evolving a machine-readable project brain (`brain.yaml`) and live execution state (`state.yaml`).
 - Building a controlled execution loop (`preflight -> run -> validate -> done`) to improve reliability across long-running work.
@@ -60,15 +44,10 @@ Current work areas inside HaxAML:
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827"/>
 </p>
 
-## Experience Snapshot
-- **Operations Systems Engineer** - Justrite Superstores, Lagos (Aug 2022 - Apr 2023)
-- **Software and Data Engineer / IT Manager** - Vigilis Pharmacy, Lagos (Jun 2023 - Feb 2026)
-- **AI and Backend Engineer (Contract, Concurrent)** - Bucca Hut (Feb 2025 - May 2025)
-
 ## GitHub Stats
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=haxsysgit&show_icons=true&hide_border=true&theme=catppuccin_latte" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haxsysgit&layout=compact&hide_border=true&theme=catppuccin_latte" />
 </p>
 
-<p align="center"><i>Focused on backend systems, applied AI, and automation that delivers measurable operational value.</i></p>
+<p><a href="mailto:elenasuluarinze@gmail.com">Contact</a></p>
