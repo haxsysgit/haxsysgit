@@ -3,14 +3,19 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Main%20Quest-HaxAML-7C3AED?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Build%20Mode-Agentic%20AI%20%2B%20Backend-0EA5E9?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Core%20Repo-AutoPahe-0EA5E9?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Vibe-Ship%20%E2%86%92%20Measure%20%E2%86%92%20Improve-10B981?style=for-the-badge"/>
 </p>
 
 ## Right Now
-I’m deep in **[haxaml](https://github.com/haxsysgit/haxaml)**, a deterministic governance layer for AI coding agents.
+I’m focused on two actively maintained repositories:
+- **[haxaml](https://github.com/haxsysgit/haxaml)**
+- **[autopahe](https://github.com/haxsysgit/autopahe)**
 
-Short version: I want agents to stop re-learning projects from scratch every session.
+## Main Focus: HaxAML
+HaxAML is a deterministic governance layer for AI coding agents.
+
+Short version: it helps agents stop re-learning the same project from scratch every session.
 
 HaxAML uses **FRAME** files to keep one shared source of truth:
 - `facts.yaml` (what is true)
@@ -19,26 +24,22 @@ HaxAML uses **FRAME** files to keep one shared source of truth:
 - `map.yaml` (architecture impact map)
 - `expect.yaml` (what should happen next)
 
-## Current Build Log
-- Building CLI + MCP workflows so Codex, Claude, Cursor, Copilot, Windsurf, and Gemini can operate from the same project memory.
-- Tracking runs, decisions, risks, and compaction to keep context lean instead of chaotic.
+### Current HaxAML Build Log
+- Expanding CLI + MCP workflows across Codex, Claude, Cursor, Copilot, Windsurf, and Gemini.
+- Tracking runs, decisions, risks, and compaction to keep context lean and reliable.
 - Exporting FRAME into native agent files (`AGENTS.md`, `CLAUDE.md`, Copilot instructions, Cursor rules, etc.).
 - Stress-testing token budget and state growth with benchmark utilities.
 
-## Why I Care
-AI agents are powerful, but project drift is real.
+## Core Repositories
+| Repo | What it is | Status |
+|---|---|---|
+| [haxaml](https://github.com/haxsysgit/haxaml) | Deterministic agent-management framework implementing FRAME governance for AI-assisted software development. | Primary focus |
+| [autopahe](https://github.com/haxsysgit/autopahe) | Cross-platform anime automation CLI for search, download, stream, and organization. | Actively maintained |
 
-I’m focused on backend-heavy systems where consistency matters: architecture, workflow reliability, state tracking, and controlled change over hype.
-
-## Featured Projects
-| Project | What it is |
-|---|---|
-| [haxaml](https://github.com/haxsysgit/haxaml) | Deterministic agent-management framework implementing FRAME governance for AI-assisted software development. |
-| [superapi](https://github.com/haxsysgit/superapi) | HaxAML child direction for governance-first FastAPI architecture workflows. |
-| [Selitys](https://github.com/haxsysgit/Selitys) | Backend codebase explainer (CLI + web) for architecture/request-flow understanding. |
-| [autopahe](https://github.com/haxsysgit/autopahe) | Cross-platform anime automation CLI (download/stream/sort) with Docker support. |
-| [My_Campus](https://github.com/haxsysgit/My_Campus) | Hackathon project for campus navigation, occupancy awareness, and safety features. |
-| [Shift-Automation](https://github.com/haxsysgit/Shift-Automation) | Email-driven shift response automation with rules + duplicate prevention. |
+## Other Notable Projects
+- [Selitys](https://github.com/haxsysgit/Selitys) - backend codebase explainer (CLI + web).
+- [My_Campus](https://github.com/haxsysgit/My_Campus) - hackathon build for navigation, occupancy, and safety.
+- [Shift-Automation](https://github.com/haxsysgit/Shift-Automation) - email-driven shift response automation.
 
 ## Project Archive (Older Builds)
 - [fetchanime](https://github.com/haxsysgit/fetchanime)
