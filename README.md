@@ -1,4 +1,4 @@
-<h1 align="center">Dev Mini-Vlog: Building Backend AI Systems in Public</h1>
+<h1 align="center">Developer Frontpage: Building Backend AI Systems in Public</h1>
 <p align="center"><b>Last updated: April 27, 2026</b></p>
 
 <p align="center">
