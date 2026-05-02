@@ -1,5 +1,4 @@
-<h1 align="center">Developer Frontpage: Building Backend AI Systems in Public</h1>
-<p align="center"><b>Last updated: April 27, 2026</b></p>
+<h1 align="center">Building Backend AI Systems in Public</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Main%20Quest-HaxAML-7C3AED?style=for-the-badge"/>
@@ -13,11 +12,11 @@ I’m focused on two actively maintained repositories:
 - **[autopahe](https://github.com/haxsysgit/autopahe)**
 
 ## Main Focus: HaxAML
-HaxAML is a deterministic governance layer for AI coding agents.
+Haxaml is a deterministic governance layer for AI coding agents.
 
 Short version: it helps agents stop re-learning the same project from scratch every session.
 
-HaxAML uses **FRAME** files to keep one shared source of truth:
+Haxaml uses **FRAME** files to keep one shared source of truth:
 - `facts.yaml` (what is true)
 - `rules.yaml` (how agents should behave)
 - `acts.yaml` (what changed)
