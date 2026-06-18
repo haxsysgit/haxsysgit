@@ -1,20 +1,20 @@
 ## Arinze Elenasulu
 
-**Python Backend Engineer — building AI developer tools and backend systems.**
+**Python Backend Engineer, building AI developer tools and backend systems.**
 
-I build tools that help developers and AI agents work together more reliably. Right now I'm focused on [FRAME](https://github.com/haxsysgit/FRAME), [Haxaml](https://github.com/haxsysgit/haxaml), and [FrameSDK](https://github.com/haxsysgit/FrameSDK) ,a stack of projects that give AI coding agents a project memory, a rulebook, and mechanical verification of their work, Basically a convention but more structured and opinionated than generic AGENTS.md.
+I build tools that help developers and AI agents work together more reliably. Right now I'm focused on [FRAME](https://github.com/haxsysgit/FRAME), [Haxaml](https://github.com/haxsysgit/haxaml), and [FrameSDK](https://github.com/haxsysgit/FrameSDK): a stack of projects that give AI coding agents a project memory, a rulebook, and mechanical verification of their work. Think of it as a convention, but more structured and opinionated than a generic AGENTS.md.
 
-I'm looking for backend or AI engineer roles where I can build systems people depend on, ship often, and work with people who share similar enthusiasm and interest on software and Agentic systems.
+I'm open to collaborating with developers who share an enthusiasm for agentic systems, backend engineering, and building tools people actually depend on. If that sounds like your team, reach out.
 
 ---
 
 ### What I'm building
 
-**[FRAME](https://github.com/haxsysgit/FRAME)** — A typed project-context standard for AI-assisted development. Five linked YAML files (Facts, Rules, Map, Expect, Acts) that give any coding agent a consistent, machine-readable understanding of your project. Instead of every agent rebuilding context from scratch, the project itself holds the shape of what it is, what it needs, and what's happened to it.
+**[FRAME](https://github.com/haxsysgit/FRAME):** A typed project-context standard for AI-assisted development. Five linked YAML files (Facts, Rules, Map, Expect, Acts) that give any coding agent a consistent, machine-readable understanding of your project. Instead of every agent rebuilding context from scratch, the project itself holds the shape of what it is, what it needs, and what's happened to it.
 
-**[Haxaml](https://github.com/haxsysgit/haxaml)** — The governance runtime that brings FRAME to life. An MCP server that enforces a structured lifecycle for AI coding agents: plan first, verify mechanically, record outcomes. Available on PyPI (`haxaml`, `haxaml-mcp`, `haxaml-ui`).
+**[Haxaml](https://github.com/haxsysgit/haxaml):** The governance runtime that brings FRAME to life. An MCP server that enforces a structured lifecycle for AI coding agents: plan first, verify mechanically, record outcomes. Available on PyPI (`haxaml`, `haxaml-mcp`, `haxaml-ui`).
 
-**[FrameSDK](https://github.com/haxsysgit/FrameSDK)** — The Python SDK for FRAME. Loads, validates, and normalises the five FRAME files into typed Python objects. Ships as `framesdkpy` on PyPI (v0.3.0). 106 tests covering construction, serialisation, schema enforcement, and cross-file consistency.
+**[FrameSDK](https://github.com/haxsysgit/FrameSDK):** The Python SDK for FRAME. Loads, validates, and normalises the five FRAME files into typed Python objects. Ships as `framesdkpy` on PyPI (v0.3.0). 106 tests covering construction, serialisation, schema enforcement, and cross-file consistency.
 
 ---
 
@@ -41,11 +41,11 @@ Built full-stack features across the product surface. Learned production enginee
 
 ### Other projects
 
-**[Pharmax(PREVIEW)](https://github.com/haxsysgit/Pharmax-backend)** — AI-integrated SaaS pharmacy management platform. Inventory, sales, reporting with LLM-powered features.
+**[Pharmax(PREVIEW)](https://github.com/haxsysgit/Pharmax-backend):** AI-integrated SaaS pharmacy management platform. Inventory, sales, reporting with LLM-powered features.
 
-**[Selitys](https://github.com/haxsysgit/Selitys)** — CLI tool that explains unfamiliar backend codebases like a senior engineer walking you through the architecture on day one.
+**[Selitys](https://github.com/haxsysgit/Selitys):** CLI tool that explains unfamiliar backend codebases like a senior engineer walking you through the architecture on day one.
 
-**[Shift Automation](https://github.com/haxsysgit/Shift-Automation)** — Email-driven shift response automation for team support workflows.
+**[Shift Automation](https://github.com/haxsysgit/Shift-Automation):** Email-driven shift response automation for team support workflows.
 
 ---
 
