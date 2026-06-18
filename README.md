@@ -2,9 +2,9 @@
 
 **Python Backend Engineer — building AI developer tools and backend systems.**
 
-I build tools that help developers and AI agents work together more reliably. Right now I'm focused on [FRAME](https://github.com/haxsysgit/FRAME), [Haxaml](https://github.com/haxsysgit/haxaml), and [FrameSDK](https://github.com/haxsysgit/FrameSDK) — a stack of projects that give AI coding agents a project memory, a rulebook, and mechanical verification of their work.
+I build tools that help developers and AI agents work together more reliably. Right now I'm focused on [FRAME](https://github.com/haxsysgit/FRAME), [Haxaml](https://github.com/haxsysgit/haxaml), and [FrameSDK](https://github.com/haxsysgit/FrameSDK) ,a stack of projects that give AI coding agents a project memory, a rulebook, and mechanical verification of their work, Basically a convention but more structured and opinionated than generic AGENTS.md.
 
-I'm looking for backend or AI engineer roles where I can build systems people depend on, ship often, and work with people who test properly.
+I'm looking for backend or AI engineer roles where I can build systems people depend on, ship often, and work with people who share similar enthusiasm and interest on software and Agentic systems.
 
 ---
 
@@ -41,7 +41,7 @@ Built full-stack features across the product surface. Learned production enginee
 
 ### Other projects
 
-**[Pharmax](https://github.com/haxsysgit/Pharmax-backend)** — AI-integrated SaaS pharmacy management platform. Inventory, sales, reporting with LLM-powered features.
+**[Pharmax(PREVIEW)](https://github.com/haxsysgit/Pharmax-backend)** — AI-integrated SaaS pharmacy management platform. Inventory, sales, reporting with LLM-powered features.
 
 **[Selitys](https://github.com/haxsysgit/Selitys)** — CLI tool that explains unfamiliar backend codebases like a senior engineer walking you through the architecture on day one.
 
