@@ -1,63 +1,35 @@
-## Arinze Elenasulu
+# Arinze Elenasulu
 
-**Python Backend Engineer, building AI developer tools and backend systems.**
+AI engineer in London. I build agent systems and LLM products, and the Python backends they run on.
 
-I build tools that help developers and AI agents work together more reliably. Right now I'm focused on [FRAME](https://github.com/haxsysgit/FRAME), [Haxaml](https://github.com/haxsysgit/haxaml), and [FrameSDK](https://github.com/haxsysgit/FrameSDK): a stack of projects that give AI coding agents a project memory, a rulebook, and mechanical verification of their work. Think of it as a convention, but more structured and opinionated than a generic AGENTS.md.
+I like building software close to real operations, where the system has to match how people actually work.
 
-I'm open to collaborating with developers who share an enthusiasm for agentic systems, backend engineering, and building tools people actually depend on. If that sounds like your team, reach out.
+## What I've built
 
----
+**Pharmacy operations system, Vigilis Pharmacy** (2024 to 2026). I built the whole system the pharmacy uses, as its only developer, and they still use it.
+Before it, staff wrote invoices by hand and walked them to the cashier.
+Now an invoice is raised at the counter, paid, confirmed and taken off stock in one step.
+Staff ask the embedded agent in plain words for the day's sales or a price change, instead of searching records or editing prices by hand.
+React, FastAPI and PostgreSQL, with role-based access, pytest and cloud deployment.
 
-### What I'm building
+**[Weaver](https://github.com/haxsysgit/Weaver)**. An LLM product that answers questions over a 3,148-chapter novel and cites the chapters it used, running on AWS EC2.
+I built a 40-question golden set and scored six retrieval arms against it.
+The best reached only 0.35 hit@5, so I moved the design to an agent that chooses between six reading tools and has to trace every claim to the text.
+Hybrid search in Qdrant, FastAPI with streamed responses, 500+ tests and CI/CD from GitHub Actions to EC2.
 
-**[FRAME](https://github.com/haxsysgit/FRAME):** A typed project-context standard for AI-assisted development. Five linked YAML files (Facts, Rules, Map, Expect, Acts) that give any coding agent a consistent, machine-readable understanding of your project. Instead of every agent rebuilding context from scratch, the project itself holds the shape of what it is, what it needs, and what's happened to it.
+**[HaxJobs](https://github.com/haxsysgit/Haxjobs)**. A job-search automation harness that finds roles, scores the fit and builds the application packs, with a monitoring interface.
+It reads the Lever, Ashby and Greenhouse job boards directly and runs on a schedule.
 
-**[Haxaml](https://github.com/haxsysgit/haxaml):** The governance runtime that brings FRAME to life. An MCP server that enforces a structured lifecycle for AI coding agents: plan first, verify mechanically, record outcomes. Available on PyPI (`haxaml`, `haxaml-mcp`, `haxaml-ui`).
+**[Haxaml](https://github.com/haxsysgit/haxaml)**. A governance runtime for AI coding workflows, published on PyPI.
+It puts rules and verification gates around a coding agent through an MCP server, a CLI and a local dashboard.
+It reads the project from [FRAME](https://github.com/haxsysgit/FRAME), a structured context format for AI-assisted projects (Facts, Rules, Acts, Map, Expect), and [FrameSDK](https://github.com/haxsysgit/FrameSDK) loads those files into typed Python objects (it's on PyPI as framesdkpy).
 
-**[FrameSDK](https://github.com/haxsysgit/FrameSDK):** The Python SDK for FRAME. Loads, validates, and normalises the five FRAME files into typed Python objects. Ships as `framesdkpy` on PyPI (v0.3.0). 106 tests covering construction, serialisation, schema enforcement, and cross-file consistency.
+## Stack
 
----
+Python, FastAPI, PostgreSQL, SQLAlchemy, React and TypeScript.
+Agents, tool calling, MCP, RAG with Qdrant, and LLM evaluation.
+pytest, Docker, GitHub Actions and AWS.
 
-### Experience
+## Contact
 
-**Software Engineer** at Vigilis (Aug 2024 – Feb 2026)
-Built backend workflows for pharmacy sales, inventory, payments, and reporting. Worked with business users to turn manual stock and reconciliation processes into reliable software. Owned API validation, structured logging, and end-to-end backend features used in daily pharmacy operations.
-
-**Software Engineer Intern** at Aptech (Sep 2022 – Aug 2024)
-Built full-stack features across the product surface. Learned production engineering discipline, testing, and working directly with users on real systems.
-
----
-
-### Tech stack
-
-**Languages:** Python, TypeScript, JavaScript
-**Backend:** FastAPI, Node.js/Express, Django
-**Databases:** PostgreSQL, SQLite
-**Frontend:** React, Vue
-**Tools:** Docker, Linux, Git, pytest
-**AI/LLM:** MCP servers, agent governance, LLM evaluation (RAGAS)
-
----
-
-### Other projects
-
-**[Pharmax(PREVIEW)](https://github.com/haxsysgit/Pharmax-backend):** AI-integrated SaaS pharmacy management platform. Inventory, sales, reporting with LLM-powered features.
-
-**[Selitys](https://github.com/haxsysgit/Selitys):** CLI tool that explains unfamiliar backend codebases like a senior engineer walking you through the architecture on day one.
-
-**[Shift Automation](https://github.com/haxsysgit/Shift-Automation):** Email-driven shift response automation for team support workflows.
-
----
-
-### Connect
-
-- [LinkedIn](https://linkedin.com/in/arinze-elenasulu)
-- [Email](mailto:elenasuluarinze@gmail.com)
-- London, UK
-
----
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=haxsysgit&show_icons=true&hide_border=true&theme=default&hide_title=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haxsysgit&layout=compact&hide_border=true&theme=default" />
-</p>
+[LinkedIn](https://www.linkedin.com/in/arinze-elenasulu) · elenasuluarinze@gmail.com · London
